@@ -1,6 +1,20 @@
 # Contribution Templates
 
-The contribution templates and guidelines used for projects at ACM @ UCSD.
+This repository contains the contribution templates and guidelines used for
+projects at ACM @ UCSD.
+
+## Usage
+
+You may use the provided `deploy_templates.sh` script to automatically add
+templates to a new repository. The command is:
+`$ ./deploy_templates.sh <CATEGORY> <REPO PATH>`
+
+For example, to add new templates to a webpage repo named "snu-api" located in
+the home folder, use:
+`$ ./deploy_templates.sh web-frontend ~/snu-api/`
+
+This script moves all the templates for the provided category, and prints the suggested
+labels to add to the GitHub repository.
 
 ## Contents
 
@@ -20,6 +34,8 @@ projects more frequently, templates for those will be added here as well.
 
 ACM uses the Contributor Covenant as a Code of Conduct for all discussions and comments
 within the repositories.
+
+The Code of Conduct must be the same across all ACM-affiliated projects. `deploy_templates.sh` will automatically add this file as well to a new repo.
 
 ## Contribution Guidelines
 
